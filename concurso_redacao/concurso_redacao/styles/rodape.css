@@ -1,0 +1,26 @@
+#rodape>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rodape>.container>p {
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 5em;
+}
+
+@media (max-width: 1000px)
+{
+    #rodape>.container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #rodape>.container>p {
+        font-size: 15px;
+        text-align: justify;
+        margin: 1em 0;
+    }
+    
+}

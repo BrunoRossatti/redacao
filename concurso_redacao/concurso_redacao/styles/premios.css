@@ -1,0 +1,17 @@
+#premios>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#premios>.container>img {
+    margin-top: 4em;
+}
+#premios>.container>.img_premios {
+    margin-top: 4em;
+    width: 100%;
+}
+
+#premios>.container>h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}

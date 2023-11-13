@@ -1,0 +1,44 @@
+#requisitos {
+    background: var(--cor-background-2);
+}
+
+#requisitos>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#requisitos>.container>h2,
+#requisitos>.container>p,
+#requisitos>.container>.border>p,
+#requisitos>.container>.genero>p,
+#requisitos>.container>.genero>h3 {
+    color: var(--cor-font-branca);
+}
+
+#requisitos>.container>img {
+    margin-top: 4em;
+}
+
+#requisitos>.container>p>strong {
+    margin: 0.5em 0;
+}
+
+#requisitos>.container>h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+#requisitos>.container>.border {
+    padding: 2em 15px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--cor-font-branca);
+    text-align: center;
+}
+
+#requisitos>.container>.genero {
+    text-align: center;
+    padding: 5em 0;
+}

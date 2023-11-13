@@ -1,0 +1,14 @@
+#inscricao {
+    background: var(--cor-background-2);
+}
+
+#inscricao>.container>h2,
+#inscricao>.container>p {
+    color: var(--cor-font-branca);
+    text-align: center;
+}
+
+#inscricao>.container>h2 {
+
+    margin-bottom: 0.2em;
+}

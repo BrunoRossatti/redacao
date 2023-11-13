@@ -1,0 +1,280 @@
+:root {
+
+    --cor-background-1: #c3d4ab;
+    --cor-background-2: #3ca00e;
+    --cor-font-cinza: #434343;
+    --cor-font-verde: #3fa30d;
+    --cor-font-verde-secundaria: #146E37;
+    --cor-font-branca: #FFFFFF;
+    --fonte-principal: "Exo 2";
+}
+
+body {
+
+    background-color: var(--cor-background-1);
+    font-family: var(--fonte-principal);
+    color: var(--cor-font-cinza);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.bg-2 {
+
+    background-color: var(--cor-background-2);
+    color: var(--cor-font-branca);
+}
+
+body>section {
+
+    text-align: center;
+}
+
+body>section,
+body>footer {
+
+    text-align: center;
+    padding: 4em 0;
+}
+
+h2 {
+
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+
+h2,
+.bk {
+
+    font-weight: 900;
+}
+
+.bg-2 h2,
+.bg-2 h3 {
+
+    color: var(--cor-font-branca);
+}
+
+strong {
+
+    font-weight: 700;
+}
+
+h3 {
+
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2,
+h3 {
+
+    color: var(--cor-font-verde);
+}
+
+fieldset label {
+
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+fieldset legend {
+
+    background-color: var(--cor-font-verde-secundaria);
+    text-align: left;
+}
+
+fieldset {
+
+    border: 2px solid var(--cor-font-verde-secundaria);
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.box {
+
+    padding: 15px;
+    border: 2px solid var(--cor-font-verde);
+    border-radius: 8px;
+}
+
+.bg-2 .box {
+
+    border-color: #fff;
+}
+
+#regras .box {
+
+    display: inline-block;
+}
+
+.tema {
+
+    background-color: var(--cor-background-2);
+    border-radius: 8px;
+    color: var(--cor-font-branca);
+    padding: 10px 15px;
+}
+
+#requisitos .box {
+
+    font-size: 28px;
+}
+
+#rodape p {
+
+    text-align: justify;
+    font-size: 12px;
+}
+
+.justify
+{
+    text-align: justify;
+}
+
+#cabecalho {
+
+    font-size: 16px;
+}
+
+header {
+
+    padding: 2em 0 3em;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(9, 9, 121, 0) 88%);
+}
+
+#inscricao h2 {
+
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+#inscricao h2+p {
+
+    font-size: 28px;
+}
+
+.lista-menu-fixo {
+
+    margin: 0;
+    padding: 0;
+}
+
+.lista-menu-fixo>li+li {
+    border-left: 1px solid var(--cor-font-branca);
+}
+
+.lista-menu-fixo>li {
+
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu-fixo .logo {
+
+    height: 60px;
+    width: auto;
+}
+
+header li a {
+
+    text-transform: uppercase;
+    color: var(--cor-font-branca);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#cabecalho>.menu-suspenso>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-menu-suspenso>.lista-menu__item {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+    background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--cor-background-2);
+}
+
+.container__botao:checked~.lista-menu-suspenso {
+    display: block;
+}
+
+.lista-menu-suspenso {
+    display: none;
+    position: absolute;
+    top: 91px;
+    right: 15px;
+    background-color: var(--cor-background-2);
+}
+
+@media (width >=1000px) {
+
+    .menu-suspenso,
+    .container__rotulo {
+        display: none;
+    }
+}
+
+@media (width < 1000px) {
+
+    .lista-menu-fixo,
+    .img_menu_fixo {
+        display: none;
+    }
+
+}
+
+#regras,
+#periodo,
+#premios,
+#requisitos,
+#inscricao {
+
+    background-image: url('../img/divider.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#btn-submit {
+
+    font-size: 30px;
+    background-color: #FFCD00;
+    color: var(--cor-font-cinza);
+}
+
+#btn-submit:hover {
+
+    color: var(--cor-font-branca);
+}
+.privacidade
+{
+    text-decoration: none;
+    color: var(--cor-font-cinza);
+}

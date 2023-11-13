@@ -1,0 +1,19 @@
+#periodo>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#periodo>.container>img {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+#periodo>.container>h3 {
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+    text-align: center;
+}
+#periodo>.container>p {
+    text-align: center;
+}
